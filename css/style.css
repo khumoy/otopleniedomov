@@ -3,10 +3,6 @@
   align-items: center;
   justify-content: space-between; }
 
-.section .row .card-plumb-servise .card-plumb-logo {
-  width: 100px;
-  height: 100px; }
-
 body {
   font-family: 'Play', sans-serif; }
   body .hideBars {
@@ -135,6 +131,8 @@ body {
     font-size: 21px;
     color: #afd61f; }
   .section .row .card-plumb-servise .card-plumb-logo {
+    width: 80px;
+    height: 75px;
     border-radius: 50%;
     background-color: white;
     padding: 5px;

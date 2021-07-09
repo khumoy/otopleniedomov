@@ -17,7 +17,7 @@ function scroll() {
 
 const data = [
     {
-        plumbLogo: `E:/Java/humoyun/Portfolio/project1Santexnik/img/plumbing.png`,
+        plumbLogo: `https://st2.depositphotos.com/1476179/6653/v/600/depositphotos_66532899-stock-illustration-symbol-plumbing-and-repair.jpg`,
         plumbHeader: `Ремонт и замена сантехники`,
         plumb1: `Монтаж и замена труб`,
         plumb2: `Замена и ремонт смесителей`,
@@ -36,7 +36,7 @@ const data = [
         animation: `data-aos="fade-down"`
     },
     {
-        plumbLogo: `E:/Java/humoyun/Portfolio/project1Santexnik/img/heatingplumb.png`,
+        plumbLogo: `https://img.icons8.com/nolan/452/temperature.png`,
         plumbHeader: `Отопление`,
         plumb1: `Твердотопливные котлы`,
         plumb2: `Газовые котлы`,
@@ -56,7 +56,7 @@ const data = [
 
     },
     {
-        plumbLogo: `E:/Java/humoyun/Portfolio/project1Santexnik/img/waterservice.png`,
+        plumbLogo: `https://i.pinimg.com/originals/8c/e9/cc/8ce9ccd8d34745f8a072268d79d4e81e.png`,
         plumbHeader: `Водоснабжение`,
         plumb1: ` Насосные станции`,
         plumb2: ` Погружные насосы`,

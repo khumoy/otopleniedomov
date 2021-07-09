@@ -181,7 +181,8 @@ body {
         color: rgb(175, 214, 31)
       }
       .card-plumb-logo{
-        @extend %w1-h1;
+        width: 80px;
+        height: 75px;
         border-radius: 50%;
         background-color: white;
         padding: 5px;
