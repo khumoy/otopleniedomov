@@ -27,7 +27,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
  @media screen and (max-width: 768px){
 .logo {
-    margin-left: 20px;
+    margin-left: 5px;
 
      }
  .navMenu {
