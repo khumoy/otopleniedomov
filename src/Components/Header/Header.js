@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HeaderWrapper, NavMenu, NavLink, Bars, Times, } from './HeaderWrapper';
-// import Logo from './plumb.png'
+import Logo from './logo.png'
 
 const Header = () => {
 
@@ -16,7 +16,7 @@ const Header = () => {
     return (
         <HeaderWrapper>
             <Link to="/" >
-                <img className="logo" src='https://lh3.googleusercontent.com/proxy/F97fnQFiVsvtjmEIoTUXogMvcwalRFTmiBx8IaAwFf-7V1BM5F3s50elBloJOUCUEF1_PrLjmPUj0oELtMPe1EfhkQ' alt="Logo" />
+                <img className="logo" src={Logo} alt="Logo" />
             </Link>
 
             <span onClick={handleClick}>

@@ -16,9 +16,8 @@ z-index: 10;
 position: relative;
 font-family: 'Source Sans Pro', sans-serif;
 .logo {
-    width: 70px;
-    margin-left: 10px;
-
+    width: 200px;
+    margin-top: 10px;   
 }
 
 .navMenu {

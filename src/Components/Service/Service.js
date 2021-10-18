@@ -2,10 +2,7 @@ import React from 'react'
 import { ServiceWrapp } from './ServiceWrapp'
 import { BiChevronRight } from 'react-icons/bi'
 import { FaMobileAlt, FaMapMarkedAlt, FaFileSignature, FaClock } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
 import Gallery from './Gallery'
-// import Catalog from './Catalog'
-// import Sponsors from './Sponsors'
 
 const Service = () => {
 
@@ -17,7 +14,7 @@ const Service = () => {
                         <div className="text-center service-item ">
                             <h1>Наши услуги</h1>
                             <p>Все работы выполняются опытными специалистами. Работа по договору, гарантия до 3 лет. <br />
-                                Звоните <Link to="tel: +998 99 4058046">+998 99 4058046</Link>
+                                Звоните <a href="tel: +998 99 4058046">+998 99 4058046</a>
                             </p>
                         </div>
                     </div>
@@ -57,7 +54,7 @@ const Service = () => {
                                 <span ><FaMobileAlt className="service-icon service-icon-help" /></span>
                                 <p>Вы оставляете заявку по тел.
                                 </p>
-                                <Link to="tel:+998 99 4058046">+998 99 4058046</Link>
+                                <a href="tel:+998 99 4058046">+998 99 4058046</a>
                             </div>
                         </div>
                         <div className="offset-1 col-10 col-sm-5 offset-md-0 col-md-4 col-lg-3 ">
