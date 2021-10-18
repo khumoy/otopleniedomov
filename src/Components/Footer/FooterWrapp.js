@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 export const FooterWrapp = styled.div`
     padding: 20px 20px 10px;
-    background: no-repeat url('https://commons.mtholyoke.edu/makerspace/wp-content/uploads/sites/103/2015/11/blue-gradient-header.jpg');
-    background-size: cover;
+    background-color: #1286B3;
 
 .social-item-group {
  

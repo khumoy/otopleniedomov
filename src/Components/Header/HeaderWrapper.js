@@ -5,8 +5,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 export const HeaderWrapper = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
-background:no-repeat  url('https://commons.mtholyoke.edu/makerspace/wp-content/uploads/sites/103/2015/11/blue-gradient-header.jpg');
-background-size: cover;
+background-color: #1286B3;
 height: 80px;
 display: flex;
 align-items: center;
