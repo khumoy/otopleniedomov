@@ -10,6 +10,7 @@ import SimpleReactLightbox from 'simple-react-lightbox';
 import Contacts from "./Components/Contacts";
 
 function App() {
+
   return (
     <>
       <SimpleReactLightbox>
