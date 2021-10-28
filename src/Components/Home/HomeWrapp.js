@@ -4,7 +4,7 @@ export const HomeWrapp = styled.div`
     background-size: cover;
     background-blend-mode: darken;
     background-color: rgb(0,0,0,0.5);
-    border-radius: 0 0 0 25%;
+    /* border-radius: 0 0 0 25%; */
     -webkit-box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.55);
     box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.55);
