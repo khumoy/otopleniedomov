@@ -14,9 +14,9 @@ padding: 0.5rem calc((100vw - 1000px) / 2);
 z-index: 10;
 position: relative;
 font-family: 'Source Sans Pro', sans-serif;
+
 .logo {
-    width: 200px;
-    margin-top: 10px;   
+    width: 70px;
 }
 
 .navMenu {
@@ -58,7 +58,7 @@ color: #fff;
 display: flex;
 align-items: center;
 text-decoration: none;
-padding: 10px 1rem;
+padding: 5px 1rem;
 margin-right: 15px;
 height: 70%;
 font-weight: 700;

@@ -4,10 +4,12 @@ import { BiChevronRight } from 'react-icons/bi'
 import { FaMobileAlt, FaMapMarkedAlt, FaFileSignature, FaClock } from 'react-icons/fa'
 import Gallery from './Gallery'
 import { Zoom, Fade } from 'react-reveal'
+import Ourservice from './Ourservice'
 const Service = () => {
 
     return (
         <ServiceWrapp>
+            <Ourservice />
             <div className="container service-content py-5">
                 <div className="row">
                     <Fade left>
@@ -15,7 +17,7 @@ const Service = () => {
                             <div className="text-center service-item ">
                                 <h1>Наши услуги</h1>
                                 <p>Все работы выполняются опытными специалистами. Работа по договору, гарантия до 3 лет. <br />
-                                    Звоните <a href="tel: +998 99 4058046">+998 99 4058046</a>
+                                    <span> Звоните: <a href="tel: +998 99 4058046"> +998 99 4058046</a></span>
                                 </p>
                             </div>
                         </div>
@@ -54,7 +56,7 @@ const Service = () => {
                     </Fade>
                 </div>
                 <div className="container service-help-container pb-4">
-                    <div className="row p-3 shadow mb-3">
+                    <div className="row p-3  mb-3">
                         <Zoom>
                             <div className="offset-1 col-10 col-sm-5 offset-md-0 col-md-4 col-lg-3  ">
                                 <div className=" text-center service-help">
@@ -90,14 +92,22 @@ const Service = () => {
                             </div>
                         </Zoom>
                     </div>
+
+
                 </div>
-                <div className="p-4  service-title text-center">
-                    <p>
-                        Мы работаем с гарантией качества и предоставляем доступную цену! Обратившись к нам по любому вопросу, будьте уверены, что все будет выполнено на самом высоком уровне без завышения стоимости и скрытых платежей. В нашем каталоге услуг вы найдете полный перечень наших возможностей, а если чего то нет, — позвоните, мы уверены, что сможем решить поставленную задачу. С уважением, сотрудники сервис центра <b>“ОТОПЛЕНИЕ-ДОМОВ ЧИРЧИК”</b>.
-                    </p>
-                </div>
+
             </div>
             <Gallery />
+            <div className="container">
+                <div className="row mt-5">
+                    <div className="p-4  service-title text-center">
+                        <p>
+                            Мы работаем с гарантией качества и предоставляем доступную цену! Обратившись к нам по любому вопросу, будьте уверены, что все будет выполнено на самом высоком уровне без завышения стоимости и скрытых платежей. В нашем каталоге услуг вы найдете полный перечень наших возможностей, а если чего то нет, — позвоните, мы уверены, что сможем решить поставленную задачу. С уважением, сотрудники сервис центра <b>“ОТОПЛЕНИЕ-ДОМОВ ЧИРЧИК”</b>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </ServiceWrapp >
     )
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HeaderWrapper, NavMenu, NavLink, Bars, Times, } from './HeaderWrapper';
-import Logo from './logo.png'
+import Logo from './logotype.png';
 
 const Header = () => {
 
@@ -32,9 +32,9 @@ const Header = () => {
                 <NavLink to='/photos' onClick={closeMenuBtn}>
                     Фото
                 </NavLink>
-                <NavLink to='/contacts' onClick={closeMenuBtn}>
+                {/* <NavLink to='/contacts' onClick={closeMenuBtn}>
                     Контакты
-                </NavLink>
+                </NavLink> */}
             </NavMenu>
 
         </HeaderWrapper >

@@ -1,22 +1,42 @@
 import styled from 'styled-components';
 export const HomeWrapp = styled.div`
-    background: url('https://пушистикбукет.рф/800/600/https/www.reinertrittin.de/images/bg-header.jpg') no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
+
+    background: url('https://www.renderhub.com/vadimche/boilers-buderus-gb062-24-cascade-heating-system/boilers-buderus-gb062-24-cascade-heating-system-06.jpg') no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: darken; 
     background-color: rgb(0,0,0,0.5);
-    /* border-radius: 0 0 0 25%; */
-    -webkit-box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.55);
-    -moz-box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.55);
-    box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.55);
-    height: 88vh;
+    backdrop-filter: blur(8px);
+    object-fit: cover;
     width: 100%;
+    
+.row {
+    min-height: 90vh;
+
+}
 .text-heating{
     border-radius: 15px;
-    background-color: rgb(255,255,255,0.7);
-    padding: 20px ;
+    /* background-color: rgb(255,255,255,0.7); */
+    color: white;
+    p {
+        padding: 1px;
+        margin: 0;
+        display: inline-block;
+        background-color: rgb(255,255,255,0.2);
+    }
+    h1 {
+        font-size: 55px ;
+        margin: 0;
+        padding: 0;
+       
+    }
+   
+
+    }
     .btn-primary {
         margin-top: 15px;
-    }
+        padding: 10px 40px;
     }
     @media (max-width: 568px) {
 

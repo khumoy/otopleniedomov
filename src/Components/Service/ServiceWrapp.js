@@ -8,32 +8,39 @@ background: no-repeat url('https://i2.wp.com/ecmservice.com/wp-content/uploads/A
 background-size: 400px 350px;
 background-position: top right;
 background-attachment: fixed;
-padding: 20px 0;
-
+/* padding: 20px 0; */
+min-height: 100vh;
 .service-item {
     padding: 15px;
     background-color: #fff;
     width: 100%;
-    -webkit-box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
+    /* -webkit-box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
     -moz-box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
-    box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
+    box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55); */
     border-radius: 5px;
     line-height: 30px;
+    h1 {
+        font-weight: 600;
+    }
     p {
         font-weight: 600;
-        a {
+        letter-spacing: 0.4px;
+        span {
+            color: red;
+            font-size: 18px;
+            a {
+            color: red;
             text-decoration: none;
-            background-color: lightblue;
-            padding:  3px;
+            padding: 3px;
             border-radius: 5px;
-            color: blue;
             transition: all 0.4s ease;
             :hover {
-                color: yellow;
-                background-color: black;
+                border: 1px solid red;
                 transition: all 0.4s ease;
             }
         }
+        }
+       
     }
 }
 
@@ -42,9 +49,9 @@ padding: 20px 0;
 }
 .service-item-group {
     background-color: #fff;
-    -webkit-box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
-    -moz-box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
-    box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
+    -webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.5);
     padding: 20px;
     margin-top: 15px;
     border-radius: 5px;
@@ -52,7 +59,6 @@ padding: 20px 0;
     .list-group-item {
     border: none;
     padding: 9px 0;
-    
 
 }
 }
@@ -65,13 +71,11 @@ padding: 20px 0;
     background-color: rgb(255,255,255,0.8);
     font-weight: 500;
     font-size: 21px;
-    -webkit-box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
-    -moz-box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
-    box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
+    
 }
 .service-help-container {
-    background-color: rgb(255,255,255,0.8);
-position: relative;
+    background-color: #fff;
+    position: relative;
 }
 .service-help {
     /* line-height: 40px; */
@@ -86,9 +90,7 @@ position: relative;
             /*position: absolute;*/
            
         }
-        /* -webkit-box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
-    -moz-box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55);
-    box-shadow: 4px 4px 8px 3px rgba(0, 125, 221, 0.55); */
+        
     transition: all 0.6s ease-in-out;
             transform:scale(1.1);
     border: 1px solid blue;
@@ -100,15 +102,13 @@ position: relative;
     a {
         margin-top: 5px;
         padding: 8px;
-        background-color: lightblue;
-        color: blue;
+        color: red;
         border-radius: 5px;
         font-weight: bold;
         text-decoration: none;
         transition: 0.5s;
         :hover {
-            background-color: #000;
-            color: yellow;
+            border: 1px solid red;
             transition: 0.5s;
         }
     }
@@ -122,9 +122,49 @@ position: relative;
 }
 
 `
+
+export const OurserviceWrapper = styled.div`
+background-color: gold;
+color: black;
+
+.row {
+    min-height: 100vh;
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 30px;
+    }
+    a {
+        font-size: 25px;
+    }
+}
+@media (max-width: 768px) {
+    
+  .row {
+    h1 {
+        font-size: 45px;
+
+    }
+    p {
+        padding: 0 10px;
+    }
+    p,a {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+  }
+}
+    
+`
 export const GalleryWrapp = styled.div`
 
+background-color: #104E92;
+min-height: 100vh;
+  color: white;
+
 .gallery {
+  
     overflow: hidden ;
     transition: all 0.5s ease-in-out;
     .gallerys-image {
@@ -145,7 +185,15 @@ h1 {
     
 }
 a {
+    color: white;
+    text-decoration: none;
     font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .9px;
+    :hover {
+        font-size: 22px;
+        color: gold;
+    }
 }
 @media (max-width: 768px) {
     .gallery {
