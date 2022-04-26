@@ -158,7 +158,6 @@ color: black;
     
 `
 export const GalleryWrapp = styled.div`
-
 background-color: #104E92;
 min-height: 100vh;
   color: white;

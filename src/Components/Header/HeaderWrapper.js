@@ -17,6 +17,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .logo {
     width: 70px;
+    margin-left: 10px;
 }
 
 .navMenu {

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const ProjectWrapp = styled.div`
 background: no-repeat url('https://server-service.uz/wp-content/uploads/2019/02/DG1A4277-%D0%9A%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C.jpg');
 background-blend-mode: darken;
+background-attachment: fixed;
 background-color: rgba(0,0,0,0.55);
 background-size: cover;
 height: 80vh;
@@ -20,7 +21,7 @@ font-family: 'Roboto', sans-serif;
 .content-title {
     /* position: absolute; */
     transform: translateY(-100px);
-    box-shadow: 4px 4px 4px 5px rgba(0,0,0,0.55);
+    box-shadow: 4px 4px 4px 1px rgba(0,0,0,0.55);
 }
 
 .image {

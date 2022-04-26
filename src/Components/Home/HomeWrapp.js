@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-export const HomeWrapp = styled.div`
+import Background from './plumbbackgr.jpg';
 
-    background: url('https://www.renderhub.com/vadimche/boilers-buderus-gb062-24-cascade-heating-system/boilers-buderus-gb062-24-cascade-heating-system-06.jpg') no-repeat;
+
+export const HomeWrapp = styled.div`
+    background: url(${Background});
     background-size: cover ;
     background-attachment: fixed;
     background-position: center;
