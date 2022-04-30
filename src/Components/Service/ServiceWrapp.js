@@ -69,26 +69,29 @@ min-height: 100vh;
     }
 
 .service-help-container {
-    background-color: #fff;
     position: relative;
+
 }
 .service-help {
     /* line-height: 40px; */
     font-weight: 600;
     padding: 20px 10px;
     transition: all 0.6s ease-in-out;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    height: 100%;
+    min-height: 250px;
     overflow: hidden;
+    margin: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    background-color: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+    border-radius: 20px;
     :hover {
-        .service-icon-help {
-            /*position: absolute;*/
-           
-        }
-        
-    transition: all 0.6s ease-in-out;
-            transform:scale(1.1);
-    border: 1px solid blue;
+        background-color: #d8dede;
+        background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+        transition: all 0.6s ease-in-out;
+        transform:scale(1.1);
+    
 
     }
     p {
@@ -163,8 +166,16 @@ export const GalleryWrapp = styled.div`
 
   font-family: 'Source Sans Pro', sans-serif;
   min-height: 100vh;
-  color: black;
-  background-color: gold;
+  color: silver;
+  background: no-repeat  url('https://www.airclimat.ru/images/rub_2_10_3_4/7.jpg') ;
+  background-blend-mode: darken;
+  background-color:rgba(0,0,0,0.5);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-attachment: fixed;
+
+  
 
 .gallery {
   
@@ -185,7 +196,8 @@ export const GalleryWrapp = styled.div`
 h1 {
     margin-bottom: 30px;
     font-weight: 700;
-    color: black;
+    color: silver;
+    
 }
 a {
     color: gray;
@@ -200,9 +212,11 @@ a {
 .service-title {
     font-weight: 500;
     font-size: 21px;
-    
+    text-align: center;
 }
 @media (max-width: 768px) {
+    background-position: center;
+    background-size:auto  100vh ;
     .gallery {
         width: 80%;
         height: 70%;

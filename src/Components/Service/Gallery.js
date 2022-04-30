@@ -42,14 +42,14 @@ const Gallery = () => {
                             </Fade>
                         ))}
                     </div>
-                    <div className="text-center pt-5">
+                    <div className="text-center pt-3">
                         <Link to='/photos'>
                             Еще <FaArrowAltCircleRight />
                         </Link>
                     </div>
                 </div>
-                <div className="container">
-                    <div className="row p-4">
+                <div className="container pb-5">
+                    <div className="row px-4 ">
                         <div className="service-title px-3">
                             <Zoom >
                                 <p>

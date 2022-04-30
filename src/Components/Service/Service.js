@@ -55,15 +55,16 @@ const Service = () => {
                         </div>
                     </Fade>
                 </div>
+                {/* section help */}
                 <div className="container service-help-container pb-4">
                     <div className="row p-3  mb-3">
                         <Zoom>
-                            <div className="offset-1 col-10 col-sm-5 offset-md-0 col-md-4 col-lg-3  ">
-                                <div className=" text-center service-help">
+                            <div className="offset-1 col-10 col-sm-5 offset-md-0 col-md-4 col-lg-3">
+                                <div className=" text-center service-help ">
                                     <span ><FaMobileAlt className="service-icon service-icon-help" /></span>
                                     <p>Вы оставляете заявку по тел.
                                     </p>
-                                    <a href="tel:+998 99 4058046">+998 99 4058046</a>
+                                    {/* <a href="tel:+998 99 4058046">+998 99 4058046</a> */}
                                 </div>
                             </div>
                         </Zoom>
