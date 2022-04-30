@@ -5,7 +5,8 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 export const HeaderWrapper = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
-background-color: #1286B3;
+/* background-color: #1286B3; */
+background-color: #fff;
 height: 80px;
 display: flex;
 align-items: center;
@@ -16,7 +17,7 @@ position: relative;
 font-family: 'Source Sans Pro', sans-serif;
 
 .logo {
-    width: 70px;
+    width: 75px;
     margin-left: 10px;
 }
 
@@ -27,7 +28,7 @@ font-family: 'Source Sans Pro', sans-serif;
 
  @media screen and (max-width: 768px){
 .logo {
-    margin-left: 5px;
+    margin-left: 16px;
 
      }
  .navMenu {
@@ -55,11 +56,11 @@ export const NavMenu = styled.div`
 
 `;
 export const NavLink = styled(Link)`
-color: #fff;
+color: gray;
 display: flex;
 align-items: center;
 text-decoration: none;
-padding: 5px 1rem;
+padding: 2px 1rem;
 margin-right: 15px;
 height: 70%;
 font-weight: 700;
@@ -69,14 +70,12 @@ border: 1px solid transparent;
 border-radius: 5px;
 
 &.active{
-   border: 1px solid white;
+   border: 1px solid black;
    background-color: transparent;
-   color: white;
-   transition: all 0.5s ease;
+   color: red;
+   transition: all 0.5s ease-in-out;
    font-weight: 700;
-   transform: scale(1.2);
-
-
+   transform: scale(1.1);
 }
 ::before{
     position: absolute;
@@ -86,23 +85,28 @@ border-radius: 5px;
     height: 3px;
     width: 0;
     border-radius: 10px;
-    background-color: yellow;
+    background-color: gray;
     transition: all 0.5s ease;
-    
 }
 :hover {
     transition: all 0.5s ease;
-    color: yellow;
+    color: black;
+    
     ::before{
         transition: all 0.5s ease;
         width: 100%;
+        background-color: black;
+
     }
 }
 
 @media  (max-width: 768px){
     padding: 10px 1rem;
     margin-top: 15px;
-    
+
+    :hover {
+        color: white;
+    }
 
 }
 `

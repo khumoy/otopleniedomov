@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 export const ServiceWrapp = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
-font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
 width: 100%;
 background: no-repeat url('https://i2.wp.com/ecmservice.com/wp-content/uploads/Asset-1@2x.png?resize=1024%2C844&ssl=1' );
 background-size: 400px 350px;
 background-position: top right;
 background-attachment: fixed;
-/* padding: 20px 0; */
 min-height: 100vh;
+
 .service-item {
     padding: 15px;
     background-color: #fff;
@@ -67,12 +67,7 @@ min-height: 100vh;
         font-size: 29px;
         color: blue;
     }
-.service-title {
-    background-color: rgb(255,255,255,0.8);
-    font-weight: 500;
-    font-size: 21px;
-    
-}
+
 .service-help-container {
     background-color: #fff;
     position: relative;
@@ -124,12 +119,17 @@ min-height: 100vh;
 `
 
 export const OurserviceWrapper = styled.div`
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+font-family: 'Source Sans Pro', sans-serif;
 background-color: gold;
 color: black;
-
 .row {
     min-height: 100vh;
     h1 {
+        
+        /* font-weight: 600; */
         font-size: 60px;
     }
     p {
@@ -158,9 +158,13 @@ color: black;
     
 `
 export const GalleryWrapp = styled.div`
-background-color: #104E92;
-min-height: 100vh;
-  color: white;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+  font-family: 'Source Sans Pro', sans-serif;
+  min-height: 100vh;
+  color: black;
+  background-color: gold;
 
 .gallery {
   
@@ -180,19 +184,23 @@ min-height: 100vh;
 
 h1 {
     margin-bottom: 30px;
-    font-weight: 600;
-    
+    font-weight: 700;
+    color: black;
 }
 a {
-    color: white;
+    color: gray;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: .9px;
     :hover {
-        font-size: 22px;
-        color: gold;
+        color: black;
     }
+}
+.service-title {
+    font-weight: 500;
+    font-size: 21px;
+    
 }
 @media (max-width: 768px) {
     .gallery {

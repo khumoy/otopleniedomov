@@ -98,7 +98,8 @@ const Service = () => {
 
             </div>
             <Gallery />
-            <div className="container">
+
+            {/* <div className="container">
                 <div className="row mt-5">
                     <div className="p-4  service-title text-center">
                         <p>
@@ -106,7 +107,7 @@ const Service = () => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </ServiceWrapp >
     )

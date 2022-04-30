@@ -33,9 +33,9 @@ const Project = () => {
     return (
         <>
             <ProjectWrapp>
-                <div className="text-center">
+                {/* <div className="text-center">
                     <h1 >Отопление</h1>
-                </div>
+                </div> */}
             </ProjectWrapp>
             <Container>
                 <div className="container content-title bg-white p-5">

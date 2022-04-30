@@ -1,15 +1,14 @@
 import styled from 'styled-components';
-import Background from './plumbbackgr.jpg';
 
 
 export const HomeWrapp = styled.div`
-    background: url(${Background});
+    background: url("https://cdn.mos.cms.futurecdn.net/JLKkuQB7pAAsaBq5yd4VEB.jpg");
     background-size: cover ;
     background-attachment: fixed;
     background-position: center;
-    background-blend-mode: darken; 
-    background-color: rgb(0,0,0,0.5);
-    backdrop-filter: blur(8px);
+    background-blend-mode: darken;  
+    background-color: rgb(0,0,0, 0.5);
+   
     object-fit: cover;
     width: 100%;
     
@@ -39,6 +38,11 @@ export const HomeWrapp = styled.div`
     .btn-primary {
         margin-top: 15px;
         padding: 10px 40px;
+        background-color: #1286B3;
+        &:hover {
+        background-color: #0006B3;
+
+        }
     }
     @media (max-width: 568px) {
 

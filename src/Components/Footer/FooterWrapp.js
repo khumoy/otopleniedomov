@@ -1,17 +1,17 @@
 import styled from 'styled-components'
 export const FooterWrapp = styled.div`
     padding: 20px 20px 10px;
-    background-color: #1286B3;
+    background-color: #fff;
 
 .social-item-group {
- 
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     }
 .nav-icons {
         text-decoration: none;
-        color: white;
+        color: black;
         padding: 8px;
         margin-left: 10px;
         border-radius: 10px;      
@@ -39,7 +39,7 @@ export const FooterWrapp = styled.div`
         align-items: center;
     }
     .phone-icon  {
-        margin-top: 15px; 
+        margin-bottom: 15px; 
     }
 }
 `
