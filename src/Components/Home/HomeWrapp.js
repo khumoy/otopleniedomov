@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const HomeWrapp = styled.div`
     background: url("https://cdn.mos.cms.futurecdn.net/JLKkuQB7pAAsaBq5yd4VEB.jpg");
     background-size: cover ;
-    background-attachment: fixed;
+    background-attachment: local;
     background-position: center;
     background-blend-mode: darken;  
     background-color: rgb(0,0,0, 0.5);
