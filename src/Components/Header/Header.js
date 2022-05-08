@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HeaderWrapper, NavMenu, NavLink, Bars, Times, } from './HeaderWrapper';
 import Logo from './brandlogo.png';
+import { Fade } from 'react-reveal';
 
 const Header = () => {
 
@@ -15,13 +16,16 @@ const Header = () => {
 
     return (
         <HeaderWrapper>
-            <Link to="/" >
-                <img className="logo" src={Logo} alt="Logo" />
-            </Link>
+            <Fade left>
+                <Link to="/" >
+                    <img className="logo" src={Logo} alt="Logo" />
+                </Link>
+            </Fade>
 
             <span onClick={handleClick}>
                 {navbar ? <Times /> : <Bars />}
             </span>
+
             <NavMenu className={navbar ? 'navMenu active' : 'navMenu'}>
                 <NavLink to='/home' onClick={closeMenuBtn}>
                     Главная
@@ -32,10 +36,11 @@ const Header = () => {
                 <NavLink to='/photos' onClick={closeMenuBtn}>
                     Фото
                 </NavLink>
-                <NavLink to='/contacts' onClick={closeMenuBtn}>
-                    Контакты
+                <NavLink to='/aboutus' onClick={closeMenuBtn}>
+                    О нас
                 </NavLink>
             </NavMenu>
+
 
         </HeaderWrapper >
     );

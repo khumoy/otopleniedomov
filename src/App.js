@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import Catalog from "./Components/Catalog";
 import SimpleReactLightbox from 'simple-react-lightbox';
-// import Contacts from "./Components/Contacts";
+import Contacts from "./Components/Contacts";
 
 function App() {
 
@@ -22,7 +22,8 @@ function App() {
               <Route path="/home" component={Home} />
               <Route path="/heating" component={Project} />
               <Route path="/photos" component={Catalog} />
-              {/* <Route path="/contacts" component={Contacts} /> */}
+              <Route path="/aboutus" component={Contacts} />
+              {/* <Route path="*" component={Contacts} /> */}
             </Switch>
             <Footer />
           </Router>

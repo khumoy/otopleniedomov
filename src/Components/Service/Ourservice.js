@@ -9,7 +9,7 @@ const Ourservice = () => {
                 <div className="row align-items-center">
                     <div className="p-4  text-center">
                         <Zoom>
-                            <h1>Как мы можем тебе помочь <span className='text-white '>?</span></h1>
+                            <h1>Как мы можем тебе помочь <span className='text-danger '>?</span></h1>
                         </Zoom>
                         <Fade right>
                             <p>Мы специализируемся на том, чтобы сделать плановое техническое обслуживание и аварийный ремонт беззаботными. Позвоните нам сегодня, чтобы узнать, насколько на самом деле прост наш процесс!</p>

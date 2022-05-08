@@ -5,7 +5,6 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 export const HeaderWrapper = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
-/* background-color: #1286B3; */
 background-color: #fff;
 height: 80px;
 display: flex;
@@ -38,12 +37,13 @@ font-family: 'Source Sans Pro', sans-serif;
     width: 100%;
     padding: 20px 0 30px;
     position: absolute;
-    top: 80px;
-    left: -110%;
-    background-color: rgba(0,0,0,0.9);
+    top: -480px;
+    left: 0;
+    background-color: #fff;
     transition: all 0.5s ease-in-out;
 }
 .navMenu.active {
+    top: 80px;
     left:0;
     transition: all 0.5s ease-in-out;
     
@@ -52,11 +52,11 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 `;
 export const NavMenu = styled.div`
-
+z-index: -9;
 
 `;
 export const NavLink = styled(Link)`
-color: gray;
+color: black;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -105,7 +105,7 @@ border-radius: 5px;
     margin-top: 15px;
 
     :hover {
-        color: white;
+        color: gray;
     }
 
 }

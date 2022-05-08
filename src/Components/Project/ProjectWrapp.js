@@ -20,7 +20,7 @@ font-weight: 600;
 export const Container = styled.div`
    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
-   background-color: gold;
+   background: url('https://mos-778561.oml.ru/d/texture.jpg');
    font-family: 'Source Sans Pro', sans-serif;
 .content-title {
     transform: translateY(-100px);

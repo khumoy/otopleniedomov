@@ -22,7 +22,7 @@ const Catalog = () => {
                             {album.map((value, index) => (
                                 <Zoom >
                                     <div key={index} className="col-3 col.sm-4 col-md-3 col-lg-2 m-2 ">
-                                        <div className="w-100 h-75 image-content">
+                                        <div className="w-100 h-100 image-content">
                                             <img className="images w-100 h-100 " src={value.src} alt="Котелные работы" />
                                         </div>
                                     </div>
@@ -34,7 +34,7 @@ const Catalog = () => {
                             {data.map((value, index) => (
                                 <Zoom>
                                     <div key={index} className="col-3 col.sm-4 col-md-3 col-lg-2 m-2 ">
-                                        <div className="w-100 h-75 image-content">
+                                        <div className="w-100 h-100 image-content">
                                             <img className="images w-100 h-100 " src={value.kotelniy} alt="Котелные работы" />
                                         </div>
                                     </div>
@@ -47,7 +47,7 @@ const Catalog = () => {
                             {data.map((photos, index) => (
                                 <Zoom>
                                     <div key={index} className="col-3 col.sm-4 col-md-3 col-lg-2 m-2 ">
-                                        <div className="w-100 h-75 image-content">
+                                        <div className="w-100 h-100 image-content">
                                             <img className="images w-100 h-100 " src={photos.pol} alt="Отопление" />
                                         </div>
                                     </div>

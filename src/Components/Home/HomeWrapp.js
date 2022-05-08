@@ -6,7 +6,7 @@ export const HomeWrapp = styled.div`
     background-size: cover ;
     background-attachment: local;
     background-position: center;
-    background-blend-mode: darken;  
+    background-blend-mode: overlay;  
     background-color: rgb(0,0,0, 0.5);
    
     object-fit: cover;
@@ -20,11 +20,11 @@ export const HomeWrapp = styled.div`
     border-radius: 15px;
     /* background-color: rgb(255,255,255,0.7); */
     color: white;
-    p {
-        padding: 1px;
+    span {
+        padding: 5px;
         margin: 0;
-        display: inline-block;
-        background-color: rgb(255,255,255,0.2);
+        background-color: rgb(150,250,355,0.5);
+        font-weight: 500;
     }
     h1 {
         font-size: 55px ;

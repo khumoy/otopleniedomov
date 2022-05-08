@@ -3,11 +3,17 @@ export const FooterWrapp = styled.div`
     padding: 20px 20px 10px;
     background-color: #fff;
 
+    .logo-brand {
+        img{
+            width: 130px;
+        }
+    }
 .social-item-group {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
     }
 .nav-icons {
         text-decoration: none;
@@ -17,19 +23,25 @@ export const FooterWrapp = styled.div`
         border-radius: 10px;      
         transition: all 0.3s  ease-in-out;
         :hover {
-            color: yellow;
-            background-color: #000;
+            color: #ff1414;
             transition:  all 0.3s ease-in-out;
-            transform: scale(1.1);
+        }
+    }
+    .phone-icon {
+        padding: 20px 0;
+        a {
+            font-weight: 800;
         }
     }
 .social-icons {
         font-size: 25px;
     }
-.social-items {
+.social-icons-contanier {
     display: flex;
     align-items: center;
-    
+    h1 {
+     color: black;   
+    }
 }
 
 @media (max-width: 768px) {

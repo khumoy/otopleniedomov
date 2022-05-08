@@ -5,7 +5,8 @@ const Contacts = () => {
     return (
         <ContactsWrapp>
             <div className="text-center">
-                <h1>Скоро будеть...</h1>
+                <h1>О компании</h1>
+                
             </div>
         </ContactsWrapp>
     )
