@@ -8,6 +8,7 @@ import store from "./redux/store";
 import Catalog from "./Components/Catalog";
 import SimpleReactLightbox from 'simple-react-lightbox';
 import Contacts from "./Components/Contacts";
+import PageNotFound from "./Components/PageNotFound"
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
               <Route path="/heating" component={Project} />
               <Route path="/photos" component={Catalog} />
               <Route path="/aboutus" component={Contacts} />
-              {/* <Route path="*" component={Contacts} /> */}
+              <Route path="*" component={PageNotFound} />
             </Switch>
             <Footer />
           </Router>

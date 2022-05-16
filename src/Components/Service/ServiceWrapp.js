@@ -269,7 +269,10 @@ img {
 
 `
 export const BrandWrapper = styled.div`
+
 background-color: rgba(0,0,0, 0.5);
+width: 100%;
+padding: 20px 0;
 h1 {
     display: flex;
     align-items: center;
@@ -280,13 +283,40 @@ h1 {
     border-radius: 20px;
     margin-bottom: 25px;
 }
-width: 100%;
-padding: 20px 0;
-.row {
-border-radius: 10px;
 
+
+.mySwiper {
+    height: 200px;
+    background-color: rgba(0,0,0,0.7);
+    /* border-radius: 50px; */
 }
-img {
-    objec-fit: cover;
+
+.sw-brand {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  height: 100%;
+  width: 100%;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
+
+.sw-brand img {
+  min-width: 100px;
+  max-width: 200px;
+  /* height: 100%; */
+  object-fit: cover;
+}
+
 `
