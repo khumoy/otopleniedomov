@@ -18,7 +18,7 @@ const Header = () => {
         <HeaderWrapper>
             <Fade left>
                 <Link to="/" >
-                    <img className="logo" src={Logo} alt="Logo" />
+                    <img className="logo" src={Logo} alt="otoplenie-domov" />
                 </Link>
             </Fade>
 
