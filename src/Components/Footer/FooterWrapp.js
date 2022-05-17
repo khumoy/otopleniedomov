@@ -5,7 +5,7 @@ export const FooterWrapp = styled.div`
 
     .logo-brand {
         img{
-            width: 130px;
+            width: 130px;   
         }
     }
 .social-item-group {
