@@ -27,10 +27,10 @@ const Header = () => {
             </span>
 
             <NavMenu className={navbar ? 'navMenu active' : 'navMenu'}>
-                <NavLink to='/otoplenie-home' onClick={closeMenuBtn}>
+                <NavLink to='/otoplenie-domov' onClick={closeMenuBtn}>
                     Главная
                 </NavLink>
-                <NavLink to='/otoplenie-domov' onClick={closeMenuBtn}>
+                <NavLink to='/otoplenie-domov-uslugi' onClick={closeMenuBtn}>
                     Отопление
                 </NavLink>
                 <NavLink to='/otoplenie-photos' onClick={closeMenuBtn}>

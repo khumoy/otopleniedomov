@@ -20,8 +20,8 @@ function App() {
             <Header />
             <Switch>
               <Route path="/" exact component={Home} />
-              <Route path="/otoplenie-home" component={Home} />
-              <Route path="/otoplenie-domov" component={Project} />
+              <Route path="/otoplenie-domov" component={Home} />
+              <Route path="/otoplenie-domov-uslugi" component={Project} />
               <Route path="/otoplenie-photos" component={Catalog} />
               <Route path="/otoplenie-aboutus" component={Contacts} />
               <Route path="*" component={PageNotFound} />
