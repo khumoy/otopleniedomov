@@ -27,16 +27,16 @@ const Header = () => {
             </span>
 
             <NavMenu className={navbar ? 'navMenu active' : 'navMenu'}>
-                <NavLink to='/home' onClick={closeMenuBtn}>
+                <NavLink to='/otoplenie-home' onClick={closeMenuBtn}>
                     Главная
                 </NavLink>
-                <NavLink to='/heating' onClick={closeMenuBtn}>
+                <NavLink to='/otoplenie-domov' onClick={closeMenuBtn}>
                     Отопление
                 </NavLink>
-                <NavLink to='/photos' onClick={closeMenuBtn}>
+                <NavLink to='/otoplenie-photos' onClick={closeMenuBtn}>
                     Фото
                 </NavLink>
-                <NavLink to='/aboutus' onClick={closeMenuBtn}>
+                <NavLink to='/otoplenie-aboutus' onClick={closeMenuBtn}>
                     О нас
                 </NavLink>
             </NavMenu>

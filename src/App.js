@@ -20,10 +20,10 @@ function App() {
             <Header />
             <Switch>
               <Route path="/" exact component={Home} />
-              <Route path="/home" component={Home} />
-              <Route path="/heating" component={Project} />
-              <Route path="/photos" component={Catalog} />
-              <Route path="/aboutus" component={Contacts} />
+              <Route path="/otoplenie-home" component={Home} />
+              <Route path="/otoplenie-domov" component={Project} />
+              <Route path="/otoplenie-photos" component={Catalog} />
+              <Route path="/otoplenie-aboutus" component={Contacts} />
               <Route path="*" component={PageNotFound} />
             </Switch>
             <Footer />
